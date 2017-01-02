@@ -1,7 +1,8 @@
 # exclude compiled binaries
 lib/
+!lib/Makehelp
 
-# exclude log files 
+# exclude log files
 log/
 
 # exclude data from source control by default

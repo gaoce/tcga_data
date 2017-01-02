@@ -1,4 +1,4 @@
-include Makehelp
+include lib/Makehelp
 
 download-rnaseqv2:
 	src/download_rnaseqv2.sh &
