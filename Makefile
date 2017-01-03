@@ -1,5 +1,5 @@
-include lib/Makehelp
-include lib/Makeremote
+include config/Makehelp
+include config/Makeconfig
 
 download-rnaseqv2:
 	src/download_rnaseqv2.sh &

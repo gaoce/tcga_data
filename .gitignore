@@ -1,6 +1,9 @@
 # exclude compiled binaries
 lib/
-!lib/Makehelp
+
+# Exclude configuration files
+config
+!config/Makehelp
 
 # exclude log files
 log/
