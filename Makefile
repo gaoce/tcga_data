@@ -11,3 +11,7 @@ extract-clinical:
 extract-rnaseqv2:
 	src/extract_rnaseqv2.sh &
 
+process-clinical:
+	${RCMD} src/process_clinical.R log/current/process_clinical.Rout
+	gzip data/current/clin*.tsv
+
