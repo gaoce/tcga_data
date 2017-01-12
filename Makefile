@@ -1,5 +1,5 @@
-include config/Makehelp
-include config/Makeconfig
+include config/make.help
+include config/make.local
 
 download-rnaseqv2:
 	src/download_rnaseqv2.sh &
